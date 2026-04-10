@@ -29,4 +29,8 @@ export class ConfiguracaoSistema {
   getMaxTentativasReenvio(): number {
     return this.maxTentativasReenvio
   }
+
+  setMaxTentativasReenvio(maxTentativasReenvio: number): void {
+    this.maxTentativasReenvio = maxTentativasReenvio
+  }
 }
